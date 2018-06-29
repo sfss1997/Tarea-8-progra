@@ -15,6 +15,7 @@ ARGS & VARS
 
 leer = json.loads(open('tortuLiebre.json').read())
 
+
 laps = leer['laps']
 delay = leer['delay']
 sleepTime = leer['sleepTime']
